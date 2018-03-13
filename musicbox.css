@@ -1,3 +1,4 @@
+/*general*/
 html,body{
   margin: 0%;
   padding: 0%;
@@ -5,16 +6,6 @@ html,body{
   height: 100%;
   background: linear-gradient(#a1a2a3, black);
 }
-.box{
-  justify-content: flex-start;
-  display: flex;
-}
-
-@font-face {
-  font-family: HG;
-  src: url('font/Hanged Letters.ttf');
-}
-
 h1{
   text-align: center;
   font-family: HG;
@@ -24,6 +15,28 @@ h1{
   padding-bottom: 5%;
   color: #d4d6d8;
   text-shadow: 2px 2px 2px black;
+}
+
+/*font*/
+@font-face {
+  font-family: HG;
+  src: url('font/Hanged Letters.ttf');
+}
+
+/* music box*/
+
+.box{
+  justify-content: flex-start;
+  display: flex;
+}
+.button{
+  height: 200px;
+  width: 80px;
+}
+.button:active{
+  height: 200px;
+  width: 80px;
+  box-shadow: 2px 4px black; 
 }
 #m0{
   background-color: #ff2e00;
