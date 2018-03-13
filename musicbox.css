@@ -1,0 +1,81 @@
+html,body{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#a1a2a3, black);
+}
+.box{
+  justify-content: flex-start;
+  display: flex;
+}
+
+@font-face {
+  font-family: HG;
+  src: url('font/Hanged Letters.ttf');
+}
+
+h1{
+  text-align: center;
+  font-family: HG;
+  padding: 0%;
+  margin: 0%;
+  font-size: 80px;
+  padding-bottom: 5%;
+  color: #d4d6d8;
+  text-shadow: 2px 2px 2px black;
+}
+#m0{
+  background-color: #ff2e00;
+  height: 200px;
+  width: 80px;
+  margin-left: 20%;
+}
+#m1{
+  background-color: #ff6600;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m2{
+  background-color: #ff9400;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m3{
+  background-color: #ffc300;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m4{
+  background-color: #b6ff00;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m5{
+  background-color: #7fff00;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m6{
+  background-color: #00ff61;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m7{
+  background-color: #00ffa1;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
+#m8{
+  background-color: #00ffcb;
+  height: 200px;
+  width: 80px;
+  margin-left: 1%;
+}
